@@ -14,6 +14,7 @@ function onSpeech(e){
 
     let chute = e.results[0][0].transcript
     exibeChuteNaTela(chute)
+    verificaSeOChutePossuiUmValorValido(chute)
 }
 
 function exibeChuteNaTela(chute){
